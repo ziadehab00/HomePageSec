@@ -1,0 +1,274 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.first{
+    height: 500px;
+    background-color: rgb(250, 119, 119);
+    background-image: url("../images/bg-pattern-intro-desktop.svg");
+    background-position: left;
+    background-size: 210%;
+    background-position-x: -300px;
+    border-bottom-left-radius:90px ;
+}
+.header{
+    display: flex;
+}
+.first .header .left_header{
+    width: 50%;
+    padding-top: 50px;
+}
+.first .header .right_header{
+    width: 50%;
+    padding-top: 50px;
+}
+.first .header .left_header h2{
+   display:inline;
+    font-size: 30px;
+   font-weight: 600;
+   color: #fff;
+   margin-left: 140px;
+   letter-spacing: 2px;
+   font-family: cursive;
+}
+.first .header .left_header ul{
+    float: right;
+}
+.first .header .left_header ul li{
+    list-style: unset;
+    display: inline;
+    padding: 5px 15px;
+    padding-bottom: 8px;
+    margin: 5px 5px;
+    
+}
+select{
+background-color: transparent;
+border: none;
+color: #fff;
+font-weight: 500;
+font-family: cursive;
+font-size: 15px;
+margin-top: 10px;
+}
+option{
+    color: #000;
+}
+.btn1 , .btn2{
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 30px;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+    user-select: none;
+    border-color: white;
+}
+.first .header .right_header .btn1 ,.first .header .right_header .btn2{
+    float: right;    
+}
+.first .header .right_header .btn1{
+    margin-right: 140px;
+    background-color: white;
+    color:rgb(250, 119, 119) ;
+    border: none;
+}
+.first .header .right_header  .btn1:hover{
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 30px;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+    user-select: none;
+    background-color: rgb(255, 82, 82);
+    color: white;
+}
+.first .header .right_header .btn2{
+    margin-right: 10px;
+    background-color: transparent;
+    color: white;
+    border:none;
+}
+.down{
+    text-align: center;
+    margin-top: 120px;
+}
+.down h3{
+    font-size: 50px;
+   font-weight: 600;
+   color: #fff;
+   letter-spacing: 2px;
+}
+.down p{
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.down .btn1{
+    background-color: white;
+    color:rgb(250, 119, 119) ;
+    border: none;    
+}
+.down .btn1:hover{
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 30px;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+    user-select: none;
+    background-color: rgb(255, 82, 82);
+    color: white;
+}
+.down .btn2{
+    background-color: transparent;
+    color: white;
+    border-color: #fff;    
+}
+.down .btn2:hover{
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 30px;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+    user-select: none;
+    background-color: #fff;
+    color: rgb(255, 82, 82);
+}
+.second{
+    background-image:url("../images/illustration-editor-desktop.svg") ;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: 800px;
+    background-position: right;
+    background-position-x: 680px ;
+}
+.second h3{
+    text-align: center;
+    padding-top: 100px;
+    color: rgba(0, 0, 0, 0.76);
+    font-size: 35px;
+}
+.second .b{
+    width: 37%;
+    margin-left: 120px;
+    margin-top: 90px;
+}
+.second .b h4{
+    color: rgba(0, 0, 0, 0.76);
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.second .b .b_b{
+    margin-top: 70px;
+}
+.second p{
+    font-size: 14px;
+    line-height: 25px;
+    color: rgba(0, 0, 0, 0.473);
+}
+.t{
+    height: 520px;
+    position: relative;
+}
+.third{
+    margin-top: 80px;
+    background-color:rgb(21, 21, 88);
+    background-image: url("../images/bg-pattern-circles.svg");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 800px;
+    background-position-x:-160px ;
+    background-position-y:-350px ;
+    border-top-right-radius:100px ;
+    border-bottom-left-radius:100px ;
+    height: 380px;
+    display: flex;
+
+}
+.third .left ,.third .right{
+    width: 50%;
+}
+.third .left img{
+    margin-left: 70px;
+    margin-top: -70px;
+}
+.third .right{
+    margin-top: 90px;
+    margin-left: 90px;
+    margin-right: 50px;
+}
+.right h3{
+    font-size: 30px;
+   font-weight: 600;
+   color: #fff;
+   letter-spacing: 2px;
+}
+.right p{
+    color: rgba(255, 255, 255, 0.89);
+    margin-top: 20px;
+    margin-bottom: 30px;
+    line-height: 20px;
+}
+/* ''''''''''''''' */
+.fourth{
+    background-image:url("../images/illustration-laptop-desktop.svg") ;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: 800px;
+    background-position: left;
+    background-position-x: -230px ;
+    background-position-y:0px ;
+}
+.fourth .b{
+    width: 40%;
+    float: right;
+    margin-right: 80px;
+    margin-top: 200px;
+}
+.fourth .b h4{
+    color: rgb(1, 1, 59);
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+.fourth .b .b_b{
+    margin-top: 40px;
+}
+.fourth p{
+    font-size: 12px;
+    line-height: 25px;
+    color: rgba(0, 0, 0, 0.473);
+    margin-right: 20px;
+}
+.fifth{
+    background-color: rgb(46, 46, 46);
+    height: 300px;
+    border-top-right-radius:100px ;
+    display: flex;
+}
+.fifth .left_fifth{
+    width: 10%;
+}
+.fifth .left_fifth h2{
+    font-size: 30px;
+   font-weight: 600;
+   color: #fff;
+   margin-left: 140px;
+   margin-top: 50px;
+   letter-spacing: 2px;
+   font-family: cursive;
+}
+.fifth .right_fifth table{
+    margin-top: 50px;
+    color: #fff;
+    line-height: 27px;
+}
+.fifth .right_fifth table td{
+    padding-left: 200px;
+}
+.fifth .right_fifth table .tt{
+    line-height: 50px;
+    font-weight: 600;
+}
